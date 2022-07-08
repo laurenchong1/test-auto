@@ -1,0 +1,47 @@
+question4_solution.txt
+
+Corresponding solution file for question3.txt.
+
+Fill in the below blank ASCII art version of UML class diagram 
+with the relevant information about the Bicycle Class.
+
+You do not need to indicate what is supposed to be private vs public
+as that is not enforced in Python, but do mark whether something is an
+instance or class attribute by putting (i) or (c) before the 
+name.
+
+For example, identify a class attribute as:
+
+(c) class_attribute_name
+
+
+TOTAL POINTS AVAILABLE: 5 
+
+
+Diagram Completeness (5)
+5 points - no errors, everything is correctly included
+3-4 points - most of the information is included, but not all of it
+2 points - a large amount of the information is wrong or missing
+1 point - an attempt was made, but most information is wrong or missing
+0 points - no attempt made 
+
+
+
+|-------------------------------|
+| Bicycle                       |
+|-------------------------------|
+| (c)  num_wheels               |    
+| (i)  num_chainrings           |
+| (i)  front_chainring_values   |
+| (i)  current_chainring        |
+| (i)  num_rear_cogs            |
+| (i)  rear_cogs_values         |
+| (i)  current_rear_cog         |
+|-------------------------------|
+| __init()__                    |
+| get_gear_inches()             |
+| set_rear_cog()                |
+| set_front_chainring()         |
+| is_single_speed()             |
+|-------------------------------|
+
